@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitorGSC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/a7ac4989d6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="sticky-top">
+            <nav class="navbar navbar-expand-md fixed-top bg-black border-bottom ml-auto" id="nav">
+                <div class="container-fluid">
+                    <span class="navbar-brand h1"><span class="neon-span">&#10094;</span>VitorGSC<span class="neon-span">/&#10095;</span></span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end mx-5" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-pills">
+                            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main data-bs-spy="scroll" data-bs-target="#nav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
+            <section class="container-fluid vh-100 mt-5" id="home" >
+                <div class="row d-flex align-items-center justify-content-around">
+                    <img class="img-fluid rounded-circle col-md-1" id="foto" src="imgs/VitorGSC.png" alt="Minha foto">
+                    <div class="col-md-6">
+                        <h1 class= "text-center" id="home"><span class="neon-span">&#10094</span>Vitor Gabriel<span class="neon-span">/&#10095;</span></span></h1>
+                        <p class="text-center">Desenvolvedor front end</p>
+                        <div class="d-flex justify-content-end align-items-end" id="contato">
+                            <a href="https://github.com/VitorGSC" target="_blank" class="p-2 icon-link icon-link-hover bg-danger.bg-gradient" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"><i class="fs-2 bi bi-github"></i></a>
+                            <a href="https://www.linkedin.com/in/vitor-gabriel-santos-coelho/" target="_blank" class="p-2 icon-link icon-link-hover bg-primary.bg-gradient" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"><i class="fs-2 bi bi-linkedin"></i></a>
+                            <a href="https://wa.me/5511967960308" target="_blank" class="p-2 icon-link icon-link-hover bg-info.bg-gradient" style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);"><i class="fs-2 bi bi-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="vh-100 text-center">
+                <h2 id="sobre">Sobre</h2>
+                <article class="text-justify">
+                    <p>Olá, meu nome é Vitor Gabriel, sou desenvolvedor front end e estudante de Análise e Desenvolvimento de Sistemas. Atualmente estou em busca de novas oportunidades de trabalho e projetos para desenvolver minhas habilidades.</p>
+                    <p>Estou sempre em busca de novos conhecimentos e desafios, e acredito que a melhor forma de aprender é colocando a mão na massa. Por isso, estou sempre desenvolvendo novos projetos e estudando novas tecnologias.</p>
+                    <p>Se você tem um projeto e precisa de um desenvolvedor front end, entre em contato comigo. Será um prazer trabalhar com você!</p>
+                </article>
+                <article class="mw-100 mx-auto" style="width: 500px;" id="skills">
+                    <h3 class="d-flex justify-content-center my-5">Habilidades</h3>
+                    <div class=" list-group list-group-horizontal ">
+                        <button type="button" class="list-group-item list-group-item-action list-group-item-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Git">
+                            <i class="bi bi-git d-flex justify-content-center" style="font-size: 4em;"></i>
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action list-group-item-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Github">
+                            <i class="bi bi-github d-flex justify-content-center" style="font-size: 4em;"></i>
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action list-group-item-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5">
+                            <i class="fa-brands fa-html5 d-flex justify-content-center" style="font-size: 4em;"></i>
+                        </button>
+                    </div> 
+                    <div class="list-group list-group-horizontal">
+                        <button type="button" class="list-group-item list-group-item-action list-group-item-info" data-bs-toggle="tooltip" data-bs-placement="bottom" title="CSS3">
+                            <i class="fa-brands fa-css3 d-flex justify-content-center" style="font-size: 4em;"></i>
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action list-group-item-info" data-bs-toggle="tooltip" data-bs-placement="bottom" title="JavaScript">
+                            <i class="fa-brands fa-js d-flex justify-content-center" style="font-size: 4em;"></i>
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action list-group-item-info" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Bootstrap">
+                            <i class="fa-brands fa-bootstrap d-flex justify-content-center" style="font-size: 4em;"></i>
+                        </button>
+                    </div>
+                </article>
+            </section>
+
+            <section class="vh-100">
+                <h2 class="text-center" id="projetos">Projetos</h2>
+                <div class="carousel" id="carouselEx" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card border border-0">
+                                <div class="img-wrapper rounded-bottom-2">
+                                    <img src="imgs/chalehotel.png" alt="Projeto chale hotel">
+                                </div>
+                                <div class="card-body rounded-top-2">
+                                    <h5 class="card-title">Chalé Hotel</h5>
+                                    <p class="card-text">Projeto desenvolvido durante meu curso na Udemy de desenvolvimento web para treinar layout líquido e conhecimentos em layout.</p>
+                                    <a href="https://vitorgsc.github.io/Projeto-Chale-Hotel/" target="_blank" class="btn btn-success">Visualizar</a>
+                                    <a href="https://github.com/VitorGSC/Projeto-Chale-Hotel" target="_blank" class="btn btn-primary">Código fonte</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card border border-0">
+                                <div class="img-wrapper">
+                                    <img src="imgs/mata-mosquito.png" alt="Game Mata Mosquito">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Game Mata Mosquito</h5>
+                                    <p class="card-text">O Game Mata Mosquito é um jogo simples e divertido. Desenvolvido utilizando as tecnologias HTML, CSS e JavaScript.</p>
+                                    <a href="https://vitorgsc.github.io/Projeto-Game-Mata-Mosquito/" target="_blank" class="btn btn-success">Visualizar</a>
+                                    <a href="https://github.com/VitorGSC/Projeto-Game-Mata-Mosquito" target="_blank" class="btn btn-primary">Código fonte</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card border border-0">
+                                <div class="img-wrapper">
+                                    <img src="imgs/Museu.png" alt="Projeto museu nacional">
+                                    </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Museu Nacional</h5>
+                                    <p class="card-text">O projeto Museu Nacional é um site fictício de um museu. Desenvolvido utilizando as tecnologias HTML, CSS.</p>
+                                    <a href="https://vitorgsc.github.io/Projeto-Museu-Nacional/" target="_blank" class="btn btn-success">Visualizar</a>
+                                    <a href="https://github.com/VitorGSC/Projeto-Museu-Nacional" target="_blank" class="btn btn-primary">Código fonte</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card border border-0">
+                                <div class="img-wrapper">
+                                    <img src="imgs/noticias.png" alt="projeto noticias">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Nóticias Cidade</h5>
+                                    <p class="card-text">Este é um projeto de um site de notícias chamado "Notícias Cidade". Desenvolvido durante meu curso na Udemy de desenvolvimento web.</p>
+                                    <a href="https://vitorgsc.github.io/Projeto_Site_Noticias_Cidade/" target="_blank" class="btn btn-success">Visualizar</a>
+                                    <a href="https://github.com/VitorGSC/Projeto_Site_Noticias_Cidade" target="_blank" class="btn btn-primary">Código fonte</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEx" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEx" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </section> 
+        </main>
+        <footer>
+            <p class="d-flex justify-content-center">&copy; Copyright 2024. Desenvolvido por Vitor Gabriel</p>
+        </footer>
+
+        <button id="btnHome" class="btn btn-primary position-fixed bottom-0 end-0 rounded-circle mx-4 my-2">
+            <i class="bi bi-arrow-up"></i>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
